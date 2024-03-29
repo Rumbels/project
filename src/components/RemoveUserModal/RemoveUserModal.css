@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.accept {
+    color: #fff;
+    background-color: rgb(42, 102, 188);
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    cursor: pointer;
+}
+
+.accept:hover {
+    background-color: rgb(14, 71, 149);
+}
+
+.reject {
+    color: rgb(100, 100, 100);
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    cursor: pointer;
+}
+
+.reject:hover {
+    background-color: rgb(194, 192, 192);
+}

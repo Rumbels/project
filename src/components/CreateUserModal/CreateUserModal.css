@@ -1,0 +1,26 @@
+.close {
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group input {
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.btn-sub {
+    margin-top: 10px;
+}
+
+.btn-sub button {
+    width: 100%;
+}
+
+label {
+    margin: 10px 0;
+    color: #797979;
+}
